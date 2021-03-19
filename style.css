@@ -1,0 +1,79 @@
+body{
+  background-color: whitesmoke;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.web-navbar{
+  background-color: #1ecbe1;
+  color: #fff;
+}
+.web-menu{
+  font-weight: 400;
+}
+.company-main-line{
+  background-color:#1ecbe1;
+  color: #fff;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.container-card{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.carousel-caption.d-none.d-md-block {
+  background: gray;
+  border-radius: 5px;
+  /* margin-bottom: 0%; */
+}
+
+.badge{
+  padding: 10px 10px;
+}
+.view-product{
+  cursor: pointer;
+}
+.modal .carousel-inner{
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.modal-header{
+  display: flex!important;
+  justify-content: space-between;
+  border-bottom:none;
+}
+.modal-title{
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 700;
+}
+.modal button span{
+  color: black;
+}
+.sri-product-view-more{
+  border: 1px dashed #8c8b8b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+ }
+ .sri-product-view-more:hover{
+   background-color: white;
+ }
+.product-card-components:hover{
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .sri-product-view-more{
+    width: 262px;
+  }
+}
