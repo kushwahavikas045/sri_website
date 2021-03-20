@@ -25,7 +25,10 @@ body{
   justify-content: center;
 }
 .carousel-caption.d-none.d-md-block {
-  background: gray;
+  background: #000;
+  opacity: 0.5;
+  font-weight: bold;
+  color: #fff;
   border-radius: 5px;
   /* margin-bottom: 0%; */
 }
@@ -76,4 +79,8 @@ body{
   .sri-product-view-more{
     width: 262px;
   }
+}
+.nav-link:hover{
+border-bottom: 1px solid #fff;
+
 }
